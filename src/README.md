@@ -23,3 +23,5 @@ Useful Links:
     - Possibly allow for better flexibility when dealing with quantum frameworks.
     - Could use A. Herilhy's PythonLLVM Thesis to get started on semantic analysis.
     - Could use llvmlite to generate QIR. (?)
+
+Leaning toward option 2...
