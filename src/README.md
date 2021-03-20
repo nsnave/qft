@@ -17,7 +17,7 @@ Useful Links:
     -  pyllvm or numba could be used for the Pyton to LLVM IR part.
     -  but neither pyllvm nor numba can fully convert Python to LLVM and issues might come up when including quantum libraries.
   - Option 2: Create a Python to QIR compiler
-    - Full control over compilation.
+    - Full control over compilation but would require more work.
     - Python's AST module would produce the AST for us, which would handle syntactic analysis.
     - We would have to handle the semantic analysis, which would include type inference and checking.
     - Possibly allow for better flexibility when dealing with quantum frameworks.
