@@ -14,7 +14,7 @@ Useful Links:
 "The Plan":
   - Option 1: Use an existing Python to LLVM IR compiler and then make an LLVM IR to QIR compiler.
     -  Would let the work focus on the quantum compilation.
-    -  pyllvm or numba could be used for the Pyton to LLVM IR part.
+    -  pyllvm or numba could be used for the Python to LLVM IR part.
     -  but neither pyllvm nor numba can fully convert Python to LLVM and issues might come up when including quantum libraries.
   - Option 2: Create a Python to QIR compiler
     - Full control over compilation but would require more work.
