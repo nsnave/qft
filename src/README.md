@@ -4,14 +4,14 @@ The driver.py file handles the translation given a source and target framework a
 
 Each folder will contain a file for the parser and generator.
 
-Useful Links:
+### Useful Links:
   - https://devblogs.microsoft.com/qsharp/introducing-quantum-intermediate-representation-qir/
   - https://docs.python.org/3/library/ast.html
   - https://github.com/aherlihy/PythonLLVM
   - https://github.com/numba/numba
   - https://github.com/numba/llvmlite
 
-"The Plan":
+### "The Plan":
   - Option 1: Use an existing Python to LLVM IR compiler and then make an LLVM IR to QIR compiler.
     -  Would let the work focus on the quantum compilation.
     -  pyllvm or numba could be used for the Python to LLVM IR part.
